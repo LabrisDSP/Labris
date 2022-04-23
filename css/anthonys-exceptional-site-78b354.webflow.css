@@ -2414,6 +2414,25 @@ a {
   padding-top: 20px;
 }
 
+.link-block-6 {
+  position: static;
+  margin-right: 0px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.link-block-7 {
+  padding-top: 20px;
+}
+
+.image-14 {
+  padding-left: 20px;
+}
+
+.image-15 {
+  padding-left: 0px;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
@@ -2991,6 +3010,7 @@ a {
   }
 
   .call-to-action {
+    height: 120vh;
     padding: 40px 20px;
   }
 
@@ -3369,7 +3389,7 @@ a {
 
   .call-to-action {
     position: static;
-    height: 110vh;
+    height: 120vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 96.9%, 0)), color-stop(0%, transparent), color-stop(55%, rgba(0, 0, 0, 0.6)));
     background-image: linear-gradient(180deg, hsla(0, 0%, 96.9%, 0), transparent 0%, rgba(0, 0, 0, 0.6) 55%);
   }
@@ -3494,6 +3514,21 @@ a {
 
   .button-4 {
     display: block;
+  }
+
+  .link-block-7 {
+    display: inline-block;
+    margin-left: auto;
+  }
+
+  .image-14 {
+    padding-right: 20vw;
+    padding-left: 0px;
+  }
+
+  .image-15 {
+    margin-left: 0px;
+    padding-left: 20vw;
   }
 }
 
